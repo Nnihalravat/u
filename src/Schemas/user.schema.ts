@@ -5,13 +5,13 @@ export type UserDocument = User & Document;
 
 @Schema()
 export class User {
-  @Prop({ required: true })
+  @Prop()
   name: string;
 
-  @Prop({ required: true })
+  @Prop()
   age: number;
 
-  @Prop({ required: true, unique: true })
+  @Prop()
   email: string;
 }
 

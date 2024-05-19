@@ -8,6 +8,7 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [
     MongooseModule.forRoot('mongodb+srv://nihalnaresh2117:mjHLvZQgYkGxNJzx@cluster0.9bhplqq.mongodb.net/'), // Update with your MongoDB URI
     UsersModule,
+
   ],
   controllers: [AppController],
   providers: [AppService],
